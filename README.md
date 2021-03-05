@@ -22,9 +22,7 @@ ceach.map(array, mapFunction, batchSize); - Array, Function, (optional) Number
 import ceach from 'concurrent-each';
 
 const array = ['a', 'b', 'c', ...]; // Large array
-
 const data = await ceach.map(array, (data) => data.toUpperCase(), 10);
-});
 ```
 
 # License
