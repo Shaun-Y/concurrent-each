@@ -1,0 +1,32 @@
+{
+  "name": "concurrent-each",
+  "version": "1.0.0",
+  "description": "An async map function to push tasks onto the macroqueue to prevent UI lock up while processing large volumes of data in batches.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xdact/concurrent-each.git"
+  },
+  "author": "xdact",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xdact/concurrent-each/issues"
+  },
+  "homepage": "https://github.com/xdact/concurrent-each#readme",
+  "dependencies": {
+    "setimmediate": "^1.0.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "eslint": "^7.21.0",
+    "jest": "^26.6.3",
+    "rollup": "^2.40.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
