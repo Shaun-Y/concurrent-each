@@ -1,7 +1,7 @@
 {
   "name": "concurrent-each",
-  "version": "1.0.0",
-  "description": "An async map function to push tasks onto the macroqueue to prevent UI lock up while processing large volumes of data in batches.",
+  "version": "1.1.0",
+  "description": "Async array operations to push tasks onto the macrotask queue to prevent UI lock up while processing large volumes of data in batches.",
   "main": "build/index.js",
   "scripts": {
     "test": "jest",
@@ -17,6 +17,22 @@
     "url": "https://github.com/xdact/concurrent-each/issues"
   },
   "homepage": "https://github.com/xdact/concurrent-each#readme",
+  "keywords": [
+    "concurrent",
+    "each",
+    "concurrency",
+    "async",
+    "asynchronous",
+    "map",
+    "forEach",
+    "reduce",
+    "array",
+    "iteration",
+    "iterate",
+    "loop",
+    "parallel",
+    "macrotask"
+  ],
   "dependencies": {
     "setimmediate": "^1.0.5"
   },
