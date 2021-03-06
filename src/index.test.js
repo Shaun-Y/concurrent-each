@@ -58,4 +58,11 @@ describe('concurrent-each', () => {
 
     expect(actual).toEqual(expected);
   });
+
+  it('reduce 10 batch with initialValue', async () => {
+    const expected = testDataNumeric.reduce((acc, curr) => (acc += curr), 123);
+    const actual = await ceach.reduce(testDataNumeric, (acc, curr) => (acc += curr), 123, 10);
+
+    expect(actual).toEqual(expected);
+  });
 });

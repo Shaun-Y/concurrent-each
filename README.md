@@ -14,15 +14,44 @@ npm install concurrent-each --save
 
 ```js
 ceach.map(array, mapFunction, batchSize); - Array, Function, (optional) Number
+ceach.forEach(array, callback, batchSize); - Array, Function, (optional) Number
+ceach.reduce(array, reducer, initialValue, batchSize); - Array, Function, (optional) Number
 ```
 
 # Examples
+
+## Map
 
 ```js
 import ceach from 'concurrent-each';
 
 const array = ['a', 'b', 'c', ...]; // Large array
 const data = await ceach.map(array, (data) => data.toUpperCase(), 10);
+```
+
+## ForEach
+
+```js
+import ceach from 'concurrent-each';
+
+const array = ['a', 'b', 'c', ...]; // Large array
+
+await ceach.forEach(
+  array,
+  (item) => {
+    // Run some code
+  },
+  10
+);
+```
+
+## Reduce
+
+```js
+import ceach from 'concurrent-each';
+
+const array = [1, 2, 3, ...]; // Large array
+const data = await ceach.reduce(array, (acc, curr) => (acc += curr), 0, 10);
 ```
 
 # License

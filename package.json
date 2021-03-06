@@ -1,6 +1,6 @@
 {
   "name": "concurrent-each",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Async array operations to push tasks onto the macrotask queue to prevent UI lock up while processing large volumes of data in batches.",
   "main": "build/index.js",
   "scripts": {
