@@ -1,6 +1,6 @@
 # concurrent-each
 
-An async map function to push tasks onto the macroqueue to prevent UI lock up while processing large volumes of data in batches.
+Async array operations to push tasks onto the macrotask queue to prevent UI lock up while processing large volumes of data in batches.
 
 # Install
 
