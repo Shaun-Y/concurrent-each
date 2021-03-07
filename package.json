@@ -1,10 +1,11 @@
 {
   "name": "concurrent-each",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Async array operations to push tasks onto the macrotask queue to prevent UI lock up while processing large volumes of data in batches.",
   "main": "build/index.js",
   "scripts": {
     "test": "jest",
+    "lint": "eslint -c ./.eslintrc ./src/**/*",
     "build": "rollup -c"
   },
   "repository": {

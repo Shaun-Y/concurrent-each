@@ -10,6 +10,14 @@ Using npm:
 npm install concurrent-each --save
 ```
 
+# In Action
+
+Timing difference is caused by background CPU tasks.
+
+| Normal Map      | Concurrent-each Map |
+| --------------- | ------------------- |
+| ![](normal.gif) | ![](concurrent.gif) |
+
 # Usage
 
 ```js
