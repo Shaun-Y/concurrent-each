@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xdact/concurrent-each.git"
+    "url": "git+https://github.com/Shaun-Y/concurrent-each.git"
   },
-  "author": "xdact",
+  "author": "Shaun-Y",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xdact/concurrent-each/issues"
+    "url": "https://github.com/Shaun-Y/concurrent-each/issues"
   },
-  "homepage": "https://github.com/xdact/concurrent-each#readme",
+  "homepage": "https://github.com/Shaun-Y/concurrent-each#readme",
   "keywords": [
     "concurrent",
     "each",
